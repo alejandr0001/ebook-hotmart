@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Desconecta para Reconectar | Ebook</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes fade-in-up {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .animate-fade-in-up {
+      animation: fade-in-up 1s ease-out;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: radial-gradient(circle at top left, #e0f7fa 10%, transparent 40%), radial-gradient(circle at bottom right, #ffe0b2 10%, transparent 40%);
+      z-index: -1;
+      opacity: 0.3;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800 relative overflow-x-hidden">
+  <header class="bg-teal-800 text-white py-10 text-center">
+    <h1 class="text-4xl font-bold">Desconecta para Reconectar</h1>
+    <p class="text-lg mt-2">Cómo sobrevivir emocionalmente al mundo online</p>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 py-10">
+    <section class="mb-12 text-center animate-fade-in-up">
+      <img src="https://image.cdn2.seaart.me/2025-07-11/d1nun1de878c73dtc6r0-4/5b43c43b7bbbb8672a099593fc7f141d_high.webp" alt="Adicción al teléfono" class="rounded-xl shadow-md w-full mb-6">
+      <h2 class="text-2xl font-semibold mb-4">¿Estás cansado de vivir pegado a la pantalla?</h2>
+      <p class="text-lg">Este ebook es una guía práctica para ayudarte a recuperar tu bienestar emocional en un mundo hiperconectado. Aprenderás a manejar la ansiedad digital, evitar la comparación constante en redes sociales y construir una rutina mentalmente sana sin renunciar a la tecnología.</p>
+    </section>
+
+    <section class="mb-12 animate-fade-in-up">
+      <h2 class="text-xl font-semibold mb-4">¿Qué encontrarás en este ebook?</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li>Consejos realistas y aplicables para reducir la ansiedad digital</li>
+        <li>Ejercicios para mejorar tu relación con el celular y las redes</li>
+        <li>Estrategias para una rutina emocionalmente equilibrada</li>
+        <li>Un enfoque accesible, humano y sin tecnofobia</li>
+      </ul>
+    </section>
+
+    <section class="mb-12 text-center animate-fade-in-up">
+      <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=80" alt="Bienestar Digital" class="rounded-xl shadow-md w-full max-w-lg mx-auto mb-6">
+      <h2 class="text-2xl font-semibold mb-4">¡Empieza hoy!</h2>
+      <p class="text-lg mb-6">Adquiere tu copia por solo <strong>un click</strong> y da el primer paso hacia una vida más consciente.</p>
+      <a href="https://hotmart.com/en/tu-link-de-producto" class="inline-block bg-teal-700 text-white px-6 py-3 rounded-lg shadow hover:bg-teal-600 transition">Comprar en Hotmart</a>
+    </section>
+
+    <section class="mb-12 animate-fade-in-up">
+      <h2 class="text-xl font-semibold text-center mb-6">Lo que dicen los lectores</h2>
+      <div class="grid gap-6 md:grid-cols-2">
+        <blockquote class="bg-white rounded-lg shadow p-6">
+          <p class="italic">"No sabía cuánto necesitaba este libro hasta que lo leí. Me ayudó a poner límites a mi uso del celular sin sentir culpa. ¡Gracias!"</p>
+          <footer class="mt-4 font-semibold text-sm text-teal-800">— Mariana R.</footer>
+        </blockquote>
+        <blockquote class="bg-white rounded-lg shadow p-6">
+          <p class="italic">"Es claro, directo y práctico. Me gustó que no te hace sentir mal por usar redes, sino que te enseña a usarlas mejor."</p>
+          <footer class="mt-4 font-semibold text-sm text-teal-800">— Jorge M.</footer>
+        </blockquote>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gray-200 text-center py-6 text-sm text-gray-600">
+    &copy; 2025 Alejandro Rodríguez. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
